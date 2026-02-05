@@ -1,0 +1,30 @@
+# Git
+.git
+.gitignore
+
+# Python artifacts
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.tox/
+.venv/
+env/
+venv/
+.env
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*
+
+# IDEs and OS junk
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
